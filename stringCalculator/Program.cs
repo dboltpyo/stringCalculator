@@ -21,7 +21,7 @@ namespace stringCalculator
                 string input = Console.ReadLine();
                 input = input.Replace("\\n", "\n");
                 list = createList(input);
-                checkListCount(list);//restraint for step 1
+                //checkListCount(list);//restraint for step 1
                 result = doSum(list);
                 Console.Write("Formula:  ");
                 for (int i = 0; i < list.Count; i++)
@@ -91,19 +91,19 @@ namespace stringCalculator
 
             foreach (var num in numList)
             {
-                //if (num < 0)
-                //{
-                //    try
-                //    {
-                //        throw new ApplicationException(num + " is negative");
-                //    }
-                //    catch (Exception e)
-                //    {
-                //        //numList.Remove(num);
-                //        Console.WriteLine(num + " is negative and invalid");
-                //    }//end catch
-                //}
-                //else
+                if (num < 0)
+                {
+                    try
+                    {
+                        throw new ApplicationException(num + " is negative");
+                    }
+                    catch (Exception e)
+                    {
+                        //numList.Remove(num);
+                        Console.WriteLine(num + " is negative and invalid");
+                    }//end catch
+                }
+                else
                     cleanList.Add(num);
             }//end foreach
 
@@ -133,20 +133,20 @@ namespace stringCalculator
 
             foreach (var num in numList)
             {
-                //if (num < 0)
-                //{
-                //    try
-                //    {
-                //        throw new ApplicationException(num + " is negative");
-                //    }
-                //    catch (Exception e)
-                //    {
-                //        //numList.Remove(num);
-                //        Console.WriteLine(num + " is negative and invalid");
+                if (num < 0)
+                {
+                    try
+                    {
+                        throw new ApplicationException(num + " is negative");
+                    }
+                    catch (Exception e)
+                    {
+                        //numList.Remove(num);
+                        Console.WriteLine(num + " is negative and invalid");
 
-                //    }//end catch
-                //}
-                //else
+                    }//end catch
+                }
+                else
                     cleanList.Add(num);
             }
 
