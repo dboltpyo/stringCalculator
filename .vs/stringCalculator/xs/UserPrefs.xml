@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{70C663D0-64BD-4686-9FD0-0CD944B5DA1F}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="stringCalculator/Program.cs">
+    <Files>
+      <File FileName="stringCalculator/packages.config" Line="1" Column="1" />
+      <File FileName="stringCalculator/Program.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="stringCalculator" expanded="True">
+            <Node name="stringCalculator" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.stringCalculator PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

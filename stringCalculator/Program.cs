@@ -12,27 +12,31 @@ namespace stringCalculator
         private const String customDelimiter = "//";//singles customer delimiter
         public static void Main(string[] args)
         {
-            Console.WriteLine("Input string");
-            int result = 0;
-            List<int> list = new List<int>();
-            string input = Console.ReadLine();
-            input = input.Replace("\\n", "\n");
-
-            list = createList(input);
-            result = doSum(list);
-            Console.Write("Formula:  ");
-            for (int i = 0; i < list.Count; i++)
+            bool keepGoing = true;
+            do
             {
-                if (i < list.Count - 1)
+                Console.WriteLine("Input string");
+                int result = 0;
+                List<int> list = new List<int>();
+                string input = Console.ReadLine();
+                input = input.Replace("\\n", "\n");
+                list = createList(input);
+                checkListCount(list);//restraint for step 1
+                result = doSum(list);
+                Console.Write("Formula:  ");
+                for (int i = 0; i < list.Count; i++)
                 {
-                    Console.Write(list[i] + "+");
-                }//end if
-                else
-                {
-                    Console.Write(list[i]);
-                }//end else
-            }//end for
-            Console.WriteLine("\nResult is " + result);
+                    if (i < list.Count - 1)
+                    {
+                        Console.Write(list[i] + "+");
+                    }//end if
+                    else
+                    {
+                        Console.Write(list[i]);
+                    }//end else
+                }//end for
+                Console.WriteLine("\nResult is " + result +"\n");
+            } while (keepGoing);
         }//end Main
 
         private static List<int> createList(String input)
@@ -50,6 +54,14 @@ namespace stringCalculator
             return list;
         }//end createList
 
+        private static void checkListCount(List<int> list)
+        {
+            if (list.Count > 2)
+            {
+                throw new Exception("Cannot have more than 2 entries");
+            }//end checkListCount
+
+        }//end checkListCount
         private static List<int> customDelimiterList(string input)
         {
             List<String> multiDelimiter = new List<String>() { "[", "]" };
@@ -79,22 +91,21 @@ namespace stringCalculator
 
             foreach (var num in numList)
             {
-                if (num < 0)
-                {
-                    try
-                    {
-                        throw new ApplicationException(num + " is negative");
-                    }
-                    catch (Exception e)
-                    {
-                        //numList.Remove(num);
-                    }//end catch
-                }
-                else
-                {
+                //if (num < 0)
+                //{
+                //    try
+                //    {
+                //        throw new ApplicationException(num + " is negative");
+                //    }
+                //    catch (Exception e)
+                //    {
+                //        //numList.Remove(num);
+                //        Console.WriteLine(num + " is negative and invalid");
+                //    }//end catch
+                //}
+                //else
                     cleanList.Add(num);
-                }
-            }
+            }//end foreach
 
 
             return cleanList;
@@ -122,21 +133,21 @@ namespace stringCalculator
 
             foreach (var num in numList)
             {
-                if (num < 0)
-                {
-                    try
-                    {
-                        throw new ApplicationException(num + " is negative");
-                    }
-                    catch (Exception e)
-                    {
-                        //numList.Remove(num);
-                    }//end catch
-                }
-                else
-                {
+                //if (num < 0)
+                //{
+                //    try
+                //    {
+                //        throw new ApplicationException(num + " is negative");
+                //    }
+                //    catch (Exception e)
+                //    {
+                //        //numList.Remove(num);
+                //        Console.WriteLine(num + " is negative and invalid");
+
+                //    }//end catch
+                //}
+                //else
                     cleanList.Add(num);
-                }
             }
 
             return cleanList;

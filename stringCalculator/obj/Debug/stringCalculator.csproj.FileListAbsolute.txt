@@ -3,3 +3,10 @@
 /Users/danielpyo/Projects/stringCalculator/stringCalculator/obj/Debug/stringCalculator.csprojAssemblyReference.cache
 /Users/danielpyo/Projects/stringCalculator/stringCalculator/obj/Debug/stringCalculator.exe
 /Users/danielpyo/Projects/stringCalculator/stringCalculator/obj/Debug/stringCalculator.pdb
+/Users/danielpyo/Projects/stringCalculator/stringCalculator/obj/Debug/stringCalculator.sourcelink.json
+/Users/danielpyo/Documents/GitHub/stringCalculator/stringCalculator/bin/Debug/stringCalculator.exe
+/Users/danielpyo/Documents/GitHub/stringCalculator/stringCalculator/bin/Debug/stringCalculator.pdb
+/Users/danielpyo/Documents/GitHub/stringCalculator/stringCalculator/obj/Debug/stringCalculator.csprojAssemblyReference.cache
+/Users/danielpyo/Documents/GitHub/stringCalculator/stringCalculator/obj/Debug/stringCalculator.sourcelink.json
+/Users/danielpyo/Documents/GitHub/stringCalculator/stringCalculator/obj/Debug/stringCalculator.exe
+/Users/danielpyo/Documents/GitHub/stringCalculator/stringCalculator/obj/Debug/stringCalculator.pdb
