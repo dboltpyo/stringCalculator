@@ -1,0 +1,5 @@
+/Users/danielpyo/Projects/stringCalculator/stringCalculator/bin/Debug/stringCalculator.exe
+/Users/danielpyo/Projects/stringCalculator/stringCalculator/bin/Debug/stringCalculator.pdb
+/Users/danielpyo/Projects/stringCalculator/stringCalculator/obj/Debug/stringCalculator.csprojAssemblyReference.cache
+/Users/danielpyo/Projects/stringCalculator/stringCalculator/obj/Debug/stringCalculator.exe
+/Users/danielpyo/Projects/stringCalculator/stringCalculator/obj/Debug/stringCalculator.pdb

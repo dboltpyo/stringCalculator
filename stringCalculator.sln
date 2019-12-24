@@ -1,0 +1,21 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "stringCalculator", "stringCalculator\stringCalculator.csproj", "{70C663D0-64BD-4686-9FD0-0CD944B5DA1F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|anycpu = Debug|anycpu
+		Release|anycpu = Release|anycpu
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70C663D0-64BD-4686-9FD0-0CD944B5DA1F}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{70C663D0-64BD-4686-9FD0-0CD944B5DA1F}.Debug|anycpu.Build.0 = Debug|anycpu
+		{70C663D0-64BD-4686-9FD0-0CD944B5DA1F}.Release|anycpu.ActiveCfg = Release|anycpu
+		{70C663D0-64BD-4686-9FD0-0CD944B5DA1F}.Release|anycpu.Build.0 = Release|anycpu
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.VersionControlPolicy = $1
+	EndGlobalSection
+EndGlobal
